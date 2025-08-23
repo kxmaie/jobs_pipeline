@@ -1,0 +1,13 @@
+dbt_wuzzuf:
+  outputs:
+    dev:
+      account: bc45973.me-central2.gcp
+      database: JOBS_DB
+      password: AsAmomen12345@@
+      role: ACCOUNTADMIN
+      schema: RAW
+      threads: 1
+      type: snowflake
+      user: momen
+      warehouse: JOBS_WH
+  target: dev
